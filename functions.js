@@ -29,7 +29,9 @@ function add(num1, num2) {
 
 }
 //*** ES6 ***//
-const add = (num1,num2) => // write your code here
+const add = (num1,num2) => num1 + num2;
+
+add();
 
 //--------------------------------------------------------------------------------//
 //! adds all three inputted numbers together
@@ -40,7 +42,9 @@ function addd(value1, value2, value3) {
 
 }
 //*** ES6 ***//
-const addd = (value1, value2, value3) => // write your code here
+const addd = (value1, value2, value3) => value1 + value2 + value3;
+
+addd();
 
 //--------------------------------------------------------------------------------//
 //! subtracts the second inputted number from the first inputted number
@@ -50,7 +54,9 @@ function subtract(n1, n2) {
 
 }
 //*** ES6 ***//
-const subtract = (n1,n2) =>  // write your code here
+const subtract = (n1,n2) =>  n1 - n2;
+
+subtract();
 
 //--------------------------------------------------------------------------------//
 //! multiplies the inputted number by 2
@@ -61,7 +67,9 @@ function multiplyByTwo(numero) {
 
 }
 //*** ES6 ***//
-const multiplyByTwo = numero => // write your code here
+const multiplyByTwo = numero => numero * 2;
+
+multiplyByTwo();
 
 //--------------------------------------------------------------------------------//
 //*** ES5 ***//
@@ -72,7 +80,9 @@ function multiply(val1, val2) {
 
 }
 //*** ES6 ***//
-// write your code here
+const multiply = (val1, val2) => val1 * val2;
+
+multiply();
 
 //--------------------------------------------------------------------------------//
 //*** ES5 ***//
@@ -83,7 +93,9 @@ function multiplyy(a, b, c) {
 
 }
 //*** ES6 ***//
-// write your code here
+const multiplyy = (num1, num2, num3) => num1 + num2 + num3;
+
+multiplyy();
 
 //--------------------------------------------------------------------------------//
 //*** ES5 ***//
@@ -93,7 +105,9 @@ function square(value) {
 
 }
 //*** ES6 ***//
-// write your code here
+const square = num => num * num;
+
+square();
 
 //--------------------------------------------------------------------------------//
 //*** ES5 ***//
@@ -106,7 +120,16 @@ function isOdd(num) {
 
 }
 //*** ES6 ***//
-// write your code here
+const isOdd = num => {
+    if (num % 2 === 0) {
+      "false";
+    }
+    else {
+      "true"
+    }
+  }
+
+isOdd();
 
 //--------------------------------------------------------------------------------//
 //*** ES5 ***//
@@ -120,7 +143,16 @@ function isNegative(num) {
 
 }
 //*** ES6 ***//
-// write your code here
+const isNegative = num => {
+  if (num >= 0) {
+   return "false";
+  }
+  else{
+    "true";
+  }
+}
+
+isNegative();
 
 //--------------------------------------------------------------------------------//
 //*** ES5 ***//
